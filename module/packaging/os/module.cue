@@ -440,7 +440,7 @@ urpmi: {
 	urpmi: {
 		force?:           bool
 		name:             string
-		`no-recommends`?: bool
+		"no-recommends"?: bool
 		root?:            string
 		state?:           string
 		update_cache?:    bool

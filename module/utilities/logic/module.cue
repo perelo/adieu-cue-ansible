@@ -11,7 +11,7 @@ import_tasks: {
 	name?: string
 	vars?: {...}
 	import_tasks: {
-		`free-form`?: string
+		"free-form"?: string
 	}
 }
 
@@ -92,7 +92,7 @@ include: {
 	name?: string
 	vars?: {...}
 	include: {
-		`free-form`?: string
+		"free-form"?: string
 	}
 }
 
@@ -109,7 +109,7 @@ include_tasks: {
 	include_tasks: {
 		apply?:       string
 		file?:        string
-		`free-form`?: string
+		"free-form"?: string
 	}
 }
 
@@ -175,7 +175,7 @@ import_playbook: {
 	name?: string
 	vars?: {...}
 	import_playbook: {
-		`free-form`?: string
+		"free-form"?: string
 	}
 }
 
@@ -212,7 +212,7 @@ include_vars: {
 	include_vars: {
 		dir?:         string
 		file?:        string
-		`free-form`?: string
+		"free-form"?: string
 		ignore_files?: [...]
 		name?:  string
 		depth?: int
@@ -287,3 +287,4 @@ wait_for: {
 		path?: string
 	}
 }
+
