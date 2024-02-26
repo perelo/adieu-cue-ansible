@@ -1,6 +1,6 @@
 package files
 
-find :: {
+find: {
 	register?: string
 	when?:     string
 	with_items?: [...string]
@@ -28,7 +28,7 @@ find :: {
 	}
 }
 
-copy :: {
+copy: {
 	register?: string
 	when?:     string
 	with_items?: [...string]
@@ -53,7 +53,7 @@ copy :: {
 	}
 }
 
-fetch :: {
+fetch: {
 	register?: string
 	when?:     string
 	with_items?: [...string]
@@ -72,7 +72,7 @@ fetch :: {
 	}
 }
 
-read_csv :: {
+read_csv: {
 	register?: string
 	when?:     string
 	with_items?: [...string]
@@ -94,7 +94,7 @@ read_csv :: {
 	}
 }
 
-xml :: {
+xml: {
 	register?: string
 	when?:     string
 	with_items?: [...string]
@@ -126,7 +126,7 @@ xml :: {
 	}
 }
 
-assemble :: {
+assemble: {
 	register?: string
 	when?:     string
 	with_items?: [...string]
@@ -148,7 +148,7 @@ assemble :: {
 	}
 }
 
-iso_extract :: {
+iso_extract: {
 	register?: string
 	when?:     string
 	with_items?: [...string]
@@ -167,7 +167,7 @@ iso_extract :: {
 	}
 }
 
-patch :: {
+patch: {
 	register?: string
 	when?:     string
 	with_items?: [...string]
@@ -189,7 +189,7 @@ patch :: {
 	}
 }
 
-stat :: {
+stat: {
 	register?: string
 	when?:     string
 	with_items?: [...string]
@@ -209,7 +209,7 @@ stat :: {
 	}
 }
 
-synchronize :: {
+synchronize: {
 	register?: string
 	when?:     string
 	with_items?: [...string]
@@ -249,7 +249,7 @@ synchronize :: {
 	}
 }
 
-tempfile :: {
+tempfile: {
 	register?: string
 	when?:     string
 	with_items?: [...string]
@@ -267,7 +267,7 @@ tempfile :: {
 	}
 }
 
-template :: {
+template: {
 	register?: string
 	when?:     string
 	with_items?: [...string]
@@ -282,7 +282,7 @@ template :: {
 	}
 }
 
-xattr :: {
+xattr: {
 	register?: string
 	when?:     string
 	with_items?: [...string]
@@ -302,7 +302,7 @@ xattr :: {
 	}
 }
 
-archive :: {
+archive: {
 	register?: string
 	when?:     string
 	with_items?: [...string]
@@ -322,7 +322,7 @@ archive :: {
 	}
 }
 
-blockinfile :: {
+blockinfile: {
 	register?: string
 	when?:     string
 	with_items?: [...string]
@@ -346,7 +346,7 @@ blockinfile :: {
 	}
 }
 
-file :: {
+file: {
 	register?: string
 	when?:     string
 	with_items?: [...string]
@@ -370,7 +370,7 @@ file :: {
 	}
 }
 
-ini_file :: {
+ini_file: {
 	register?: string
 	when?:     string
 	with_items?: [...string]
@@ -393,7 +393,7 @@ ini_file :: {
 	}
 }
 
-lineinfile :: {
+lineinfile: {
 	register?: string
 	when?:     string
 	with_items?: [...string]
@@ -418,7 +418,7 @@ lineinfile :: {
 	}
 }
 
-replace :: {
+replace: {
 	register?: string
 	when?:     string
 	with_items?: [...string]
@@ -440,7 +440,7 @@ replace :: {
 	}
 }
 
-unarchive :: {
+unarchive: {
 	register?: string
 	when?:     string
 	with_items?: [...string]
@@ -464,7 +464,7 @@ unarchive :: {
 	}
 }
 
-acl :: {
+acl: {
 	register?: string
 	when?:     string
 	with_items?: [...string]

@@ -1,6 +1,6 @@
 package os
 
-yum :: {
+yum: {
 	vars?: {...}
 	when?:   string
 	notify?: string | [...string]
@@ -40,7 +40,7 @@ yum :: {
 	}
 }
 
-apt_key :: {
+apt_key: {
 	vars?: {...}
 	when?:   string
 	notify?: string | [...string]
@@ -62,7 +62,7 @@ apt_key :: {
 	}
 }
 
-installp :: {
+installp: {
 	vars?: {...}
 	when?:   string
 	notify?: string | [...string]
@@ -80,7 +80,7 @@ installp :: {
 	}
 }
 
-macports :: {
+macports: {
 	vars?: {...}
 	when?:   string
 	notify?: string | [...string]
@@ -99,7 +99,7 @@ macports :: {
 	}
 }
 
-opkg :: {
+opkg: {
 	vars?: {...}
 	when?:   string
 	notify?: string | [...string]
@@ -117,7 +117,7 @@ opkg :: {
 	}
 }
 
-package_facts :: {
+package_facts: {
 	vars?: {...}
 	when?:   string
 	notify?: string | [...string]
@@ -133,7 +133,7 @@ package_facts :: {
 	}
 }
 
-rhsm_repository :: {
+rhsm_repository: {
 	vars?: {...}
 	when?:   string
 	notify?: string | [...string]
@@ -150,7 +150,7 @@ rhsm_repository :: {
 	}
 }
 
-xbps :: {
+xbps: {
 	vars?: {...}
 	when?:   string
 	notify?: string | [...string]
@@ -169,7 +169,7 @@ xbps :: {
 	}
 }
 
-dpkg_selections :: {
+dpkg_selections: {
 	vars?: {...}
 	when?:   string
 	notify?: string | [...string]
@@ -185,7 +185,7 @@ dpkg_selections :: {
 	}
 }
 
-layman :: {
+layman: {
 	vars?: {...}
 	when?:   string
 	notify?: string | [...string]
@@ -203,7 +203,7 @@ layman :: {
 	}
 }
 
-rhn_channel :: {
+rhn_channel: {
 	vars?: {...}
 	when?:   string
 	notify?: string | [...string]
@@ -223,7 +223,7 @@ rhn_channel :: {
 	}
 }
 
-zypper :: {
+zypper: {
 	vars?: {...}
 	when?:   string
 	notify?: string | [...string]
@@ -248,7 +248,7 @@ zypper :: {
 	}
 }
 
-zypper_repository :: {
+zypper_repository: {
 	vars?: {...}
 	when?:   string
 	notify?: string | [...string]
@@ -273,7 +273,7 @@ zypper_repository :: {
 	}
 }
 
-pkgutil :: {
+pkgutil: {
 	vars?: {...}
 	when?:   string
 	notify?: string | [...string]
@@ -291,7 +291,7 @@ pkgutil :: {
 	}
 }
 
-pulp_repo :: {
+pulp_repo: {
 	vars?: {...}
 	when?:   string
 	notify?: string | [...string]
@@ -329,7 +329,7 @@ pulp_repo :: {
 	}
 }
 
-rpm_key :: {
+rpm_key: {
 	vars?: {...}
 	when?:   string
 	notify?: string | [...string]
@@ -347,7 +347,7 @@ rpm_key :: {
 	}
 }
 
-snap :: {
+snap: {
 	vars?: {...}
 	when?:   string
 	notify?: string | [...string]
@@ -365,7 +365,7 @@ snap :: {
 	}
 }
 
-homebrew_cask :: {
+homebrew_cask: {
 	vars?: {...}
 	when?:   string
 	notify?: string | [...string]
@@ -389,7 +389,7 @@ homebrew_cask :: {
 	}
 }
 
-pkgin :: {
+pkgin: {
 	vars?: {...}
 	when?:   string
 	notify?: string | [...string]
@@ -410,7 +410,7 @@ pkgin :: {
 	}
 }
 
-swdepot :: {
+swdepot: {
 	vars?: {...}
 	when?:   string
 	notify?: string | [...string]
@@ -427,7 +427,7 @@ swdepot :: {
 	}
 }
 
-urpmi :: {
+urpmi: {
 	vars?: {...}
 	when?:   string
 	notify?: string | [...string]
@@ -447,7 +447,7 @@ urpmi :: {
 	}
 }
 
-slackpkg :: {
+slackpkg: {
 	vars?: {...}
 	when?:   string
 	notify?: string | [...string]
@@ -464,7 +464,7 @@ slackpkg :: {
 	}
 }
 
-apk :: {
+apk: {
 	vars?: {...}
 	when?:   string
 	notify?: string | [...string]
@@ -484,7 +484,7 @@ apk :: {
 	}
 }
 
-apt_repo :: {
+apt_repo: {
 	vars?: {...}
 	when?:   string
 	notify?: string | [...string]
@@ -502,7 +502,7 @@ apt_repo :: {
 	}
 }
 
-apt_rpm :: {
+apt_rpm: {
 	vars?: {...}
 	when?:   string
 	notify?: string | [...string]
@@ -519,7 +519,7 @@ apt_rpm :: {
 	}
 }
 
-dnf :: {
+dnf: {
 	vars?: {...}
 	when?:   string
 	notify?: string | [...string]
@@ -559,7 +559,7 @@ dnf :: {
 	}
 }
 
-flatpak :: {
+flatpak: {
 	vars?: {...}
 	when?:   string
 	notify?: string | [...string]
@@ -578,7 +578,7 @@ flatpak :: {
 	}
 }
 
-homebrew_tap :: {
+homebrew_tap: {
 	vars?: {...}
 	when?:   string
 	notify?: string | [...string]
@@ -595,7 +595,7 @@ homebrew_tap :: {
 	}
 }
 
-rhn_register :: {
+rhn_register: {
 	vars?: {...}
 	when?:   string
 	notify?: string | [...string]
@@ -620,7 +620,7 @@ rhn_register :: {
 	}
 }
 
-yum_repository :: {
+yum_repository: {
 	vars?: {...}
 	when?:   string
 	notify?: string | [...string]
@@ -682,7 +682,7 @@ yum_repository :: {
 	}
 }
 
-homebrew :: {
+homebrew: {
 	vars?: {...}
 	when?:   string
 	notify?: string | [...string]
@@ -702,7 +702,7 @@ homebrew :: {
 	}
 }
 
-pacman :: {
+pacman: {
 	vars?: {...}
 	when?:   string
 	notify?: string | [...string]
@@ -724,7 +724,7 @@ pacman :: {
 	}
 }
 
-portage :: {
+portage: {
 	vars?: {...}
 	when?:   string
 	notify?: string | [...string]
@@ -759,7 +759,7 @@ portage :: {
 	}
 }
 
-rhsm_release :: {
+rhsm_release: {
 	vars?: {...}
 	when?:   string
 	notify?: string | [...string]
@@ -774,7 +774,7 @@ rhsm_release :: {
 	}
 }
 
-svr4pkg :: {
+svr4pkg: {
 	vars?: {...}
 	when?:   string
 	notify?: string | [...string]
@@ -795,7 +795,7 @@ svr4pkg :: {
 	}
 }
 
-apt :: {
+apt: {
 	vars?: {...}
 	when?:   string
 	notify?: string | [...string]
@@ -828,7 +828,7 @@ apt :: {
 	}
 }
 
-flatpak_remote :: {
+flatpak_remote: {
 	vars?: {...}
 	when?:   string
 	notify?: string | [...string]
@@ -847,7 +847,7 @@ flatpak_remote :: {
 	}
 }
 
-openbsd_pkg :: {
+openbsd_pkg: {
 	vars?: {...}
 	when?:   string
 	notify?: string | [...string]
@@ -867,7 +867,7 @@ openbsd_pkg :: {
 	}
 }
 
-package :: {
+package: {
 	vars?: {...}
 	when?:   string
 	notify?: string | [...string]
@@ -884,7 +884,7 @@ package :: {
 	}
 }
 
-pkg5 :: {
+pkg5: {
 	vars?: {...}
 	when?:   string
 	notify?: string | [...string]
@@ -903,7 +903,7 @@ pkg5 :: {
 	}
 }
 
-portinstall :: {
+portinstall: {
 	vars?: {...}
 	when?:   string
 	notify?: string | [...string]
@@ -920,7 +920,7 @@ portinstall :: {
 	}
 }
 
-redhat_subscription :: {
+redhat_subscription: {
 	vars?: {...}
 	when?:   string
 	notify?: string | [...string]
@@ -957,7 +957,7 @@ redhat_subscription :: {
 	}
 }
 
-apt_repository :: {
+apt_repository: {
 	vars?: {...}
 	when?:   string
 	notify?: string | [...string]
@@ -980,7 +980,7 @@ apt_repository :: {
 	}
 }
 
-pkg5_publisher :: {
+pkg5_publisher: {
 	vars?: {...}
 	when?:   string
 	notify?: string | [...string]
@@ -1000,7 +1000,7 @@ pkg5_publisher :: {
 	}
 }
 
-pkgng :: {
+pkgng: {
 	vars?: {...}
 	when?:   string
 	notify?: string | [...string]
@@ -1023,7 +1023,7 @@ pkgng :: {
 	}
 }
 
-sorcery :: {
+sorcery: {
 	vars?: {...}
 	when?:   string
 	notify?: string | [...string]
@@ -1043,7 +1043,7 @@ sorcery :: {
 	}
 }
 
-swupd :: {
+swupd: {
 	vars?: {...}
 	when?:   string
 	notify?: string | [...string]

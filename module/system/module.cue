@@ -1,6 +1,6 @@
 package system
 
-xfs_quota :: {
+xfs_quota: {
 	name?: string
 	vars?: {...}
 	when?:       string
@@ -24,7 +24,7 @@ xfs_quota :: {
 	}
 }
 
-gather_facts :: {
+gather_facts: {
 	name?: string
 	vars?: {...}
 	when?:       string
@@ -39,7 +39,7 @@ gather_facts :: {
 	}
 }
 
-open_iscsi :: {
+open_iscsi: {
 	name?: string
 	vars?: {...}
 	when?:       string
@@ -63,7 +63,7 @@ open_iscsi :: {
 	}
 }
 
-user :: {
+user: {
 	name?: string
 	vars?: {...}
 	when?:       string
@@ -110,7 +110,7 @@ user :: {
 	}
 }
 
-syspatch :: {
+syspatch: {
 	name?: string
 	vars?: {...}
 	when?:       string
@@ -126,7 +126,7 @@ syspatch :: {
 	}
 }
 
-filesystem :: {
+filesystem: {
 	name?: string
 	vars?: {...}
 	when?:       string
@@ -145,7 +145,7 @@ filesystem :: {
 	}
 }
 
-pamd :: {
+pamd: {
 	name?: string
 	vars?: {...}
 	when?:       string
@@ -170,7 +170,7 @@ pamd :: {
 	}
 }
 
-ping :: {
+ping: {
 	name?: string
 	vars?: {...}
 	when?:       string
@@ -185,7 +185,7 @@ ping :: {
 	}
 }
 
-crypttab :: {
+crypttab: {
 	name?: string
 	vars?: {...}
 	when?:       string
@@ -205,7 +205,7 @@ crypttab :: {
 	}
 }
 
-puppet :: {
+puppet: {
 	name?: string
 	vars?: {...}
 	when?:       string
@@ -235,7 +235,7 @@ puppet :: {
 	}
 }
 
-setup :: {
+setup: {
 	name?: string
 	vars?: {...}
 	when?:       string
@@ -253,7 +253,7 @@ setup :: {
 	}
 }
 
-timezone :: {
+timezone: {
 	name?: string
 	vars?: {...}
 	when?:       string
@@ -269,7 +269,7 @@ timezone :: {
 	}
 }
 
-getent :: {
+getent: {
 	name?: string
 	vars?: {...}
 	when?:       string
@@ -288,7 +288,7 @@ getent :: {
 	}
 }
 
-lvg :: {
+lvg: {
 	name?: string
 	vars?: {...}
 	when?:       string
@@ -309,7 +309,7 @@ lvg :: {
 	}
 }
 
-selinux_permissive :: {
+selinux_permissive: {
 	name?: string
 	vars?: {...}
 	when?:       string
@@ -327,7 +327,7 @@ selinux_permissive :: {
 	}
 }
 
-java_cert :: {
+java_cert: {
 	name?: string
 	vars?: {...}
 	when?:       string
@@ -355,7 +355,7 @@ java_cert :: {
 	}
 }
 
-modprobe :: {
+modprobe: {
 	name?: string
 	vars?: {...}
 	when?:       string
@@ -372,7 +372,7 @@ modprobe :: {
 	}
 }
 
-pam_limits :: {
+pam_limits: {
 	name?: string
 	vars?: {...}
 	when?:       string
@@ -395,7 +395,7 @@ pam_limits :: {
 	}
 }
 
-solaris_zone :: {
+solaris_zone: {
 	name?: string
 	vars?: {...}
 	when?:       string
@@ -419,7 +419,7 @@ solaris_zone :: {
 	}
 }
 
-ufw :: {
+ufw: {
 	name?: string
 	vars?: {...}
 	when?:       string
@@ -451,7 +451,7 @@ ufw :: {
 	}
 }
 
-dconf :: {
+dconf: {
 	name?: string
 	vars?: {...}
 	when?:       string
@@ -468,7 +468,7 @@ dconf :: {
 	}
 }
 
-firewalld :: {
+firewalld: {
 	name?: string
 	vars?: {...}
 	when?:       string
@@ -496,7 +496,7 @@ firewalld :: {
 	}
 }
 
-gconftool2 :: {
+gconftool2: {
 	name?: string
 	vars?: {...}
 	when?:       string
@@ -516,7 +516,7 @@ gconftool2 :: {
 	}
 }
 
-xfconf :: {
+xfconf: {
 	name?: string
 	vars?: {...}
 	when?:       string
@@ -535,7 +535,7 @@ xfconf :: {
 	}
 }
 
-cronvar :: {
+cronvar: {
 	name?: string
 	vars?: {...}
 	when?:       string
@@ -557,7 +557,7 @@ cronvar :: {
 	}
 }
 
-lvol :: {
+lvol: {
 	name?: string
 	vars?: {...}
 	when?:       string
@@ -583,7 +583,7 @@ lvol :: {
 	}
 }
 
-sysctl :: {
+sysctl: {
 	name?: string
 	vars?: {...}
 	when?:       string
@@ -604,7 +604,7 @@ sysctl :: {
 	}
 }
 
-parted :: {
+parted: {
 	name?: string
 	vars?: {...}
 	when?:       string
@@ -629,7 +629,7 @@ parted :: {
 	}
 }
 
-pids :: {
+pids: {
 	name?: string
 	vars?: {...}
 	when?:       string
@@ -644,7 +644,7 @@ pids :: {
 	}
 }
 
-seboolean :: {
+seboolean: {
 	name?: string
 	vars?: {...}
 	when?:       string
@@ -662,7 +662,7 @@ seboolean :: {
 	}
 }
 
-selinux :: {
+selinux: {
 	name?: string
 	vars?: {...}
 	when?:       string
@@ -679,7 +679,7 @@ selinux :: {
 	}
 }
 
-svc :: {
+svc: {
 	name?: string
 	vars?: {...}
 	when?:       string
@@ -699,7 +699,7 @@ svc :: {
 	}
 }
 
-at :: {
+at: {
 	name?: string
 	vars?: {...}
 	when?:       string
@@ -719,7 +719,7 @@ at :: {
 	}
 }
 
-beadm :: {
+beadm: {
 	name?: string
 	vars?: {...}
 	when?:       string
@@ -740,7 +740,7 @@ beadm :: {
 	}
 }
 
-hostname :: {
+hostname: {
 	name?: string
 	vars?: {...}
 	when?:       string
@@ -756,7 +756,7 @@ hostname :: {
 	}
 }
 
-aix_lvg :: {
+aix_lvg: {
 	name?: string
 	vars?: {...}
 	when?:       string
@@ -776,7 +776,7 @@ aix_lvg :: {
 	}
 }
 
-openwrt_init :: {
+openwrt_init: {
 	name?: string
 	vars?: {...}
 	when?:       string
@@ -794,7 +794,7 @@ openwrt_init :: {
 	}
 }
 
-make :: {
+make: {
 	name?: string
 	vars?: {...}
 	when?:       string
@@ -812,7 +812,7 @@ make :: {
 	}
 }
 
-reboot :: {
+reboot: {
 	name?: string
 	vars?: {...}
 	when?:       string
@@ -833,7 +833,7 @@ reboot :: {
 	}
 }
 
-systemd :: {
+systemd: {
 	name?: string
 	vars?: {...}
 	when?:       string
@@ -857,7 +857,7 @@ systemd :: {
 	}
 }
 
-authorized_key :: {
+authorized_key: {
 	name?: string
 	vars?: {...}
 	when?:       string
@@ -881,7 +881,7 @@ authorized_key :: {
 	}
 }
 
-debconf :: {
+debconf: {
 	name?: string
 	vars?: {...}
 	when?:       string
@@ -900,7 +900,7 @@ debconf :: {
 	}
 }
 
-interfaces_file :: {
+interfaces_file: {
 	name?: string
 	vars?: {...}
 	when?:       string
@@ -921,7 +921,7 @@ interfaces_file :: {
 	}
 }
 
-mksysb :: {
+mksysb: {
 	name?: string
 	vars?: {...}
 	when?:       string
@@ -946,7 +946,7 @@ mksysb :: {
 	}
 }
 
-python_requirements_info :: {
+python_requirements_info: {
 	name?: string
 	vars?: {...}
 	when?:       string
@@ -961,7 +961,7 @@ python_requirements_info :: {
 	}
 }
 
-sysvinit :: {
+sysvinit: {
 	name?: string
 	vars?: {...}
 	when?:       string
@@ -983,7 +983,7 @@ sysvinit :: {
 	}
 }
 
-aix_devices :: {
+aix_devices: {
 	name?: string
 	vars?: {...}
 	when?:       string
@@ -1002,7 +1002,7 @@ aix_devices :: {
 	}
 }
 
-aix_filesystem :: {
+aix_filesystem: {
 	name?: string
 	vars?: {...}
 	when?:       string
@@ -1029,7 +1029,7 @@ aix_filesystem :: {
 	}
 }
 
-listen_ports_facts :: {
+listen_ports_facts: {
 	name?: string
 	vars?: {...}
 	when?:       string
@@ -1043,7 +1043,7 @@ listen_ports_facts :: {
 	}
 }
 
-mount :: {
+mount: {
 	name?: string
 	vars?: {...}
 	when?:       string
@@ -1067,7 +1067,7 @@ mount :: {
 	}
 }
 
-ohai :: {
+ohai: {
 	name?: string
 	vars?: {...}
 	when?:       string
@@ -1081,7 +1081,7 @@ ohai :: {
 	}
 }
 
-vdo :: {
+vdo: {
 	name?: string
 	vars?: {...}
 	when?:       string
@@ -1117,7 +1117,7 @@ vdo :: {
 	}
 }
 
-facter :: {
+facter: {
 	name?: string
 	vars?: {...}
 	when?:       string
@@ -1131,7 +1131,7 @@ facter :: {
 	}
 }
 
-iptables :: {
+iptables: {
 	name?: string
 	vars?: {...}
 	when?:       string
@@ -1186,7 +1186,7 @@ iptables :: {
 	}
 }
 
-kernel_blacklist :: {
+kernel_blacklist: {
 	name?: string
 	vars?: {...}
 	when?:       string
@@ -1203,7 +1203,7 @@ kernel_blacklist :: {
 	}
 }
 
-capabilities :: {
+capabilities: {
 	name?: string
 	vars?: {...}
 	when?:       string
@@ -1220,7 +1220,7 @@ capabilities :: {
 	}
 }
 
-service_facts :: {
+service_facts: {
 	name?: string
 	vars?: {...}
 	when?:       string
@@ -1234,7 +1234,7 @@ service_facts :: {
 	}
 }
 
-awall :: {
+awall: {
 	name?: string
 	vars?: {...}
 	when?:       string
@@ -1251,7 +1251,7 @@ awall :: {
 	}
 }
 
-cron :: {
+cron: {
 	name?: string
 	vars?: {...}
 	when?:       string
@@ -1282,7 +1282,7 @@ cron :: {
 	}
 }
 
-java_keystore :: {
+java_keystore: {
 	name?: string
 	vars?: {...}
 	when?:       string
@@ -1305,7 +1305,7 @@ java_keystore :: {
 	}
 }
 
-known_hosts :: {
+known_hosts: {
 	name?: string
 	vars?: {...}
 	when?:       string
@@ -1324,7 +1324,7 @@ known_hosts :: {
 	}
 }
 
-runit :: {
+runit: {
 	name?: string
 	vars?: {...}
 	when?:       string
@@ -1343,7 +1343,7 @@ runit :: {
 	}
 }
 
-sefcontext :: {
+sefcontext: {
 	name?: string
 	vars?: {...}
 	when?:       string
@@ -1365,7 +1365,7 @@ sefcontext :: {
 	}
 }
 
-aix_inittab :: {
+aix_inittab: {
 	name?: string
 	vars?: {...}
 	when?:       string
@@ -1385,7 +1385,7 @@ aix_inittab :: {
 	}
 }
 
-aix_lvol :: {
+aix_lvol: {
 	name?: string
 	vars?: {...}
 	when?:       string
@@ -1408,7 +1408,7 @@ aix_lvol :: {
 	}
 }
 
-alternatives :: {
+alternatives: {
 	name?: string
 	vars?: {...}
 	when?:       string
@@ -1426,7 +1426,7 @@ alternatives :: {
 	}
 }
 
-seport :: {
+seport: {
 	name?: string
 	vars?: {...}
 	when?:       string
@@ -1446,7 +1446,7 @@ seport :: {
 	}
 }
 
-service :: {
+service: {
 	name?: string
 	vars?: {...}
 	when?:       string
@@ -1468,7 +1468,7 @@ service :: {
 	}
 }
 
-nosh :: {
+nosh: {
 	name?: string
 	vars?: {...}
 	when?:       string
@@ -1487,7 +1487,7 @@ nosh :: {
 	}
 }
 
-osx_defaults :: {
+osx_defaults: {
 	name?: string
 	vars?: {...}
 	when?:       string
@@ -1509,7 +1509,7 @@ osx_defaults :: {
 	}
 }
 
-selogin :: {
+selogin: {
 	name?: string
 	vars?: {...}
 	when?:       string
@@ -1529,7 +1529,7 @@ selogin :: {
 	}
 }
 
-group :: {
+group: {
 	name?: string
 	vars?: {...}
 	when?:       string
@@ -1549,7 +1549,7 @@ group :: {
 	}
 }
 
-locale_gen :: {
+locale_gen: {
 	name?: string
 	vars?: {...}
 	when?:       string

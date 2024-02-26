@@ -1,6 +1,6 @@
 package commands
 
-shell :: {
+shell: {
 	register?: string
 	vars?: {...}
 	tags?: [...string]
@@ -23,7 +23,7 @@ shell :: {
 	}
 }
 
-telnet :: {
+telnet: {
 	register?: string
 	vars?: {...}
 	tags?: [...string]
@@ -48,7 +48,7 @@ telnet :: {
 	}
 }
 
-command :: {
+command: {
 	register?: string
 	vars?: {...}
 	tags?: [...string]
@@ -72,7 +72,7 @@ command :: {
 	}
 }
 
-expect :: {
+expect: {
 	register?: string
 	vars?: {...}
 	tags?: [...string]
@@ -93,7 +93,7 @@ expect :: {
 	}
 }
 
-psexec :: {
+psexec: {
 	register?: string
 	vars?: {...}
 	tags?: [...string]
@@ -127,7 +127,7 @@ psexec :: {
 	}
 }
 
-raw :: {
+raw: {
 	register?: string
 	vars?: {...}
 	tags?: [...string]
@@ -143,7 +143,7 @@ raw :: {
 	}
 }
 
-script :: {
+script: {
 	register?: string
 	vars?: {...}
 	tags?: [...string]

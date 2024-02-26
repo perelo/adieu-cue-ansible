@@ -1,6 +1,6 @@
 package logic
 
-import_tasks :: {
+import_tasks: {
 	with_items?: [...string]
 	connection?: string
 	become?:     bool
@@ -15,7 +15,7 @@ import_tasks :: {
 	}
 }
 
-set_stats :: {
+set_stats: {
 	with_items?: [...string]
 	connection?: string
 	become?:     bool
@@ -32,7 +32,7 @@ set_stats :: {
 	}
 }
 
-wait_for_connection :: {
+wait_for_connection: {
 	with_items?: [...string]
 	connection?: string
 	become?:     bool
@@ -50,7 +50,7 @@ wait_for_connection :: {
 	}
 }
 
-async_status :: {
+async_status: {
 	with_items?: [...string]
 	connection?: string
 	become?:     bool
@@ -66,7 +66,7 @@ async_status :: {
 	}
 }
 
-fail :: {
+fail: {
 	with_items?: [...string]
 	connection?: string
 	become?:     bool
@@ -81,7 +81,7 @@ fail :: {
 	}
 }
 
-include :: {
+include: {
 	with_items?: [...string]
 	connection?: string
 	become?:     bool
@@ -96,7 +96,7 @@ include :: {
 	}
 }
 
-include_tasks :: {
+include_tasks: {
 	with_items?: [...string]
 	connection?: string
 	become?:     bool
@@ -113,7 +113,7 @@ include_tasks :: {
 	}
 }
 
-set_fact :: {
+set_fact: {
 	with_items?: [...string]
 	connection?: string
 	become?:     bool
@@ -129,7 +129,7 @@ set_fact :: {
 	}
 }
 
-assert :: {
+assert: {
 	with_items?: [...string]
 	connection?: string
 	become?:     bool
@@ -147,7 +147,7 @@ assert :: {
 	}
 }
 
-debug :: {
+debug: {
 	with_items?: [...string]
 	connection?: string
 	become?:     bool
@@ -164,7 +164,7 @@ debug :: {
 	}
 }
 
-import_playbook :: {
+import_playbook: {
 	with_items?: [...string]
 	connection?: string
 	become?:     bool
@@ -179,7 +179,7 @@ import_playbook :: {
 	}
 }
 
-import_role :: {
+import_role: {
 	with_items?: [...string]
 	connection?: string
 	become?:     bool
@@ -199,7 +199,7 @@ import_role :: {
 	}
 }
 
-include_vars :: {
+include_vars: {
 	with_items?: [...string]
 	connection?: string
 	become?:     bool
@@ -222,7 +222,7 @@ include_vars :: {
 	}
 }
 
-include_role :: {
+include_role: {
 	with_items?: [...string]
 	connection?: string
 	become?:     bool
@@ -244,7 +244,7 @@ include_role :: {
 	}
 }
 
-pause :: {
+pause: {
 	with_items?: [...string]
 	connection?: string
 	become?:     bool
@@ -262,7 +262,7 @@ pause :: {
 	}
 }
 
-wait_for :: {
+wait_for: {
 	with_items?: [...string]
 	connection?: string
 	become?:     bool
