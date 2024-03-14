@@ -1,6 +1,6 @@
 package ansible
 
-Option:: {
+#Option: {
 	description: *[] | string | [...string]
 	type: *"string" | "str" | "int" | "float" | "bool" | "list" | "dict" | "raw" | "path" | "json" | "jsonarg"
 	required: *false | bool
@@ -10,11 +10,11 @@ Option:: {
 	choices?: [..._]
 	elements?: "string" | "str" | "path" | "raw" | "dict"
 	suboptions?: null | {
-		[string]: Option
+		[string]: #Option
 	}
 }
 
-Module:: {
+#Module: {
 	module: string
 	short_description: *"" | string
 	extends_documentation_fragment?: [...string] | string
@@ -26,12 +26,12 @@ Module:: {
 	todo?: _
 	version_added: float | string
 	options: {
-		[string]: Option
+		[string]: #Option
 	}
 	author: string | [string, ...string]
 }
 
-module: [string]: Module
+module: [string]: #Module
 module: [ID=_]: {
 	module: ID
 }
