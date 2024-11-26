@@ -1,3 +1,15 @@
+
+
+* `module/` contient les modules Ansible
+  * semble importé de Ansible. D'où?
+  * chaque sous-dossier a un fichier `module.cue` dans le package avec le nom du répertoire
+
+* `schema.cue` et `schema/*.cue` sont tous dans le package `ansible`
+
+* `play_tool.cue` et `example/playbook.cue` sont dans le package `playbook`
+
+
+
 # cue-ansible
 
 Write Ansible Playbooks in CUE
